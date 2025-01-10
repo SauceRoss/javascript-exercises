@@ -1,11 +1,12 @@
 const reverseString = function(string) {
-    let reversed = "";
+    let inital = Array.from(string);
+    let final = []; 
 
-    if(string != "") {
-        reversed = string.reverse();
+    if (string != "") {
+        final = inital.reverse();
     }
 
-    return reversed;
+    return final.join('');
 };
 
 // Do not edit below this line
